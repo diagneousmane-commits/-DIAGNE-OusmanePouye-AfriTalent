@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> 
     <link rel="stylesheet" href="css/style.css">
     <title>AfriTalent-Freelance</title>
 </head>
 <body>
 
     <!-- Navigation Bootstrap commune a toutes les pages --> 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> 
 <div class="container"> 
 <a class="navbar-brand" href="index.html">AfriTalent</a> 
 <button class="navbar-toggler" type="button" 
@@ -49,11 +50,229 @@ href="contact.html">Contact</a></li>
         </select>
     </div>
     <!-- Grilles des freelances -->
-     <div>
-        
-     </div>
+     <section>
+        <div class="container">
+  <div class="row" id="freelanceGrid">
+    <!-- Exemple de carte -->
+     <!-- Profil 1 -->
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 freelance-card" data-category="dev">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/1200x/af/b3/79/afb3795400a39ec210b750ac8ad7cc74.jpg" class="card-img-top" alt="Photo Freelance">
+        <div class="card-body">
+          <h5 class="card-title">Fallou Ndiaye</h5>
+          <p class="text-muted">Développeuse Web</p>
+          <p>Passionnée par le code et les solutions modernes.</p>
+          <p><strong>Tarif :</strong> 25€/h</p>
+          <p>
+            <!-- <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span> -->
+            (4.0)
+          </p>
+          <a href="#" class="btn btn-primary">Voir le profil</a>
+        </div>
+      </div>
+    </div> 
+            <!-- Profil 2 -->
+     <div class="col-lg-4 col-md-6 col-sm-12 mb-4 freelance-card" data-category="dev">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/1200x/6d/0c/c2/6d0cc2520bca609c46110e4e22aa7434.jpg" class="card-img-top" alt="Photo Freelance">
+        <div class="card-body">
+          <h5 class="card-title">Maman kane</h5>
+          <p class="text-muted">Design</p>
+          <p>Les designers sont des créateurs qui allient esthétique et fonctionnalité pour donner vie à des idées. Leur rôle ne se limite pas à rendre un projet « beau » : ils cherchent surtout à améliorer l’expérience des utilisateurs en pensant aux détails visuels, à la lisibilité et à l’ergonomie. </p>
+          <p><strong>Tarif :</strong> 25€/h</p>
+          <p>
+            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            (4.0)
+          </p>
+          <a href="#" class="btn btn-primary">Voir le profil</a>
+        </div>
+      </div>
+    </div> 
+
+        <!-- Profil 3 -->
+
+     <div class="col-lg-4 col-md-6 col-sm-12 mb-4 freelance-card" data-category="dev">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/1200x/46/c8/91/46c891e0565c033d0f3f21e79b49ce1d.jpg" class="card-img-top" alt="Photo Freelance">
+        <div class="card-body">
+          <h5 class="card-title">Victor Carrera</h5>
+          <p class="text-muted">Marketing digital</p>
+          <p>Le marketing digital regroupe l’ensemble des techniques utilisées pour promouvoir une marque, un produit ou un service à travers les canaux numériques. Il s’appuie sur des leviers comme le référencement (SEO/SEA) </p>
+          <p><strong>Tarif :</strong> 25€/h</p>
+          <p>
+            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            (4.0)
+          </p>
+          <a href="#" class="btn btn-primary">Voir le profil</a>
+        </div>
+      </div>
+    </div> 
+          <!-- Profil 4 -->
+     <div class="col-lg-4 col-md-6 col-sm-12 mb-4 freelance-card" data-category="dev">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/736x/4e/ed/bd/4eedbd615ac232cb22009707e3914222.jpg" class="card-img-top" alt="Photo Freelance">
+        <div class="card-body">
+          <h5 class="card-title">Moustapha Fall</h5>
+          <p class="text-muted">Data Analyst</p>
+          <p>Le Data Analyst est un professionnel spécialisé dans l’exploitation et l’interprétation des données. Son rôle consiste à collecter, nettoyer et analyser des informations issues de différentes sources (bases de données, réseaux sociaux, outils marketing, etc.) afin de dégager des tendances et d’aider les entreprises à prendre des décisions éclairées.</p>
+          <p><strong>Tarif :</strong> 25€/h</p>
+          <p>
+            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            (4.0)
+          </p>
+          <a href="#" class="btn btn-primary">Voir le profil</a>
+        </div>
+      </div>
+    </div> 
+        <!-- Profil 5 -->
+
+     <div class="col-lg-4 col-md-6 col-sm-12 mb-4 freelance-card" data-category="dev">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/736x/27/69/ae/2769aec3b16c4ec1e0e0da20f2771cee.jpg" class="card-img-top" alt="Photo Freelance">
+        <div class="card-body">
+          <h5 class="card-title">Birahim Fall</h5>
+          <p class="text-muted">Developpeur mobile</p>
+          <p>Le développeur mobile est un expert chargé de concevoir et de maintenir des applications destinées aux smartphones et tablettes. Il maîtrise des langages comme Java/Kotlin pour Android ou Swift pour iOS, et parfois des solutions hybrides comme Flutter ou React Native</p>
+          <p><strong>Tarif :</strong> 25€/h</p>
+          <p>
+            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            (4.0)
+          </p>
+          <a href="#" class="btn btn-primary">Voir le profil</a>
+        </div>
+      </div>
+    </div> 
+    <!-- Profil 6 -->
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4 freelance-card" data-category="dev">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/736x/f2/c0/68/f2c068c9360e86c8a46a86659947351c.jpg" class="card-img-top" alt="Photo Freelance">
+        <div class="card-body">
+          <h5 class="card-title"> </h5>
+          <p class="text-muted">Analyste Programmeur</p>
+          <p>L’analyste programmeur est un professionnel qui combine deux compétences clés : l’analyse des besoins et la programmation. Il commence par étudier les demandes des utilisateurs ou des entreprises afin de comprendre les objectifs et les contraintes d’un projet.</p>
+          <p><strong>Tarif :</strong> 25€/h</p>
+          <p>
+            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            (4.0)
+          </p>
+          <a href="#" class="btn btn-primary">Voir le profil</a>
+        </div>
+      </div>
+    </div> 
+      <!-- Profil 7 -->
+
+     <div class="col-lg-4 col-md-6 col-sm-12 mb-4 freelance-card" data-category="dev">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/1200x/62/e3/4e/62e34e26b88b19f785d4e430dcb0d2e3.jpg" class="card-img-top" alt="Photo Freelance">
+        <div class="card-body">
+          <h5 class="card-title">Mamadou Diagne</h5>
+          <p class="text-muted">Administrateur reseau</p>
+          <p>L’administrateur réseau est le garant du bon fonctionnement des infrastructures informatiques d’une organisation. Il installe, configure et supervise les équipements (serveurs, routeurs, switchs) afin d’assurer la disponibilité et la sécurité du réseau</p>
+          <p><strong>Tarif :</strong> 25€/h</p>
+          <p>
+            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            (4.0)
+          </p>
+          <a href="#" class="btn btn-primary">Voir le profil</a>
+        </div>
+      </div>
+    </div> 
+      <!-- Profil 8 -->
+     <div class="col-lg-4 col-md-6 col-sm-12 mb-4 freelance-card" data-category="dev">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/736x/db/29/c7/db29c787516fbb468ea220803f35862a.jpg" class="card-img-top" alt="Photo Freelance">
+        <div class="card-body">
+          <h5 class="card-title">Mouhamed Lo</h5>
+          <p class="text-muted">IA et Ingenierie des donnees</p>
+          <p>L’Intelligence Artificielle (IA) et l’ingénierie des données forment un duo stratégique dans le monde numérique actuel. L’ingénierie des données consiste à concevoir, organiser et optimiser les pipelines qui collectent, stockent et préparent les données pour qu’elles soient fiables et exploitables</p>
+          <p><strong>Tarif :</strong> 25€/h</p>
+          <p>
+            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            (4.0)
+          </p>
+          <a href="#" class="btn btn-primary">Voir le profil</a>
+        </div>
+      </div>
+    </div> 
+      <!-- Profil 9 -->
+     <div class="col-lg-4 col-md-6 col-sm-12 mb-4 freelance-card" data-category="dev">
+      <div class="card h-100 shadow-sm">
+        <img src="https://i.pinimg.com/736x/08/9a/14/089a143ca9fdae1f6cdd9717fbaba81d.jpg" class="card-img-top" alt="Photo Freelance">
+        <div class="card-body">
+          <h5 class="card-title">Abdou Niane</h5>
+          <p class="text-muted">Consultant ERP</p>
+          <p>Le consultant ERP est un spécialiste qui accompagne les entreprises dans le choix, l’implémentation et l’optimisation des progiciels de gestion intégrée (ERP)</p>
+          <p><strong>Tarif :</strong> 25€/h</p>
+          <p>
+            <span class="text-warning">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+            (4.0)
+          </p>
+          <a href="#" class="btn btn-primary">Voir le profil</a>
+        </div>
+      </div>
+    </div> 
+     </section>
 </section>
+
+<section>
+  <!-- Footer -->
+<footer class="bg-dark text-white pt-5">
+  <div class="container">
+    <div class="row">
+
+      <!-- Colonne 1 : AfriTalent -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">AfriTalent</h5>
+        <img src="logo.png" alt="Logo AfriTalent" width="120" class="mb-2">
+        <p>La plateforme qui connecte les talents africains avec le monde.</p>
+      </div>
+
+      <!-- Colonne 2 : Liens utiles -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Liens utiles</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white text-decoration-none">Accueil</a></li>
+          <li><a href="freelances.html" class="text-white text-decoration-none">Freelances</a></li>
+          <li><a href="tarifs.html" class="text-white text-decoration-none">Tarifs</a></li>
+          <li><a href="about.html" class="text-white text-decoration-none">À propos</a></li>
+          <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Colonne 3 : Ressources -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Ressources</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+          <li><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Support</a></li>
+        </ul>
+      </div>
+
+      <!-- Colonne 4 : Contact -->
+      <div class="col-md-3 mb-4">
+        <h5 class="fw-bold">Contact</h5>
+        <p>Email : contact@afritalent.com</p>
+        <p>Téléphone : +221 77 000 00 00</p>
+        <!-- Icônes réseaux sociaux -->
+        <div>
+          <a href="#" class="text-blue me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-blue me-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-blue me-3"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-blue"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ligne copyright -->
+    <div class="text-center border-top border-secondary pt-3 mt-3">
+      <p>&copy; <span id="year"></span> AfriTalent. Tous droits réservés.</p>
+    </div>
+  </div>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
 <script src="js/main.js"></script>
 </body>
-</html>
+</html> `
