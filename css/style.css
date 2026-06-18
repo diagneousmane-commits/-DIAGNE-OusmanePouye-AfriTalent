@@ -41,10 +41,10 @@ body.dark-mode {
 
 
 body {
-    /* font-family: var(--font-body); */
-    /* background-color: var(--light); */
-    /* color: var(--dark); */
-    /* overflow-x: hidden; */
+    font-family: var(--font-body); */
+    background-color: var(--light);
+    color: var(--dark);
+     overflow-x: hidden;
 }
 
 /* --- STRUCTURE HERO --- */
@@ -222,21 +222,21 @@ body {
 }
 
 /* --- RESPONSIVE (MOBILE / TABLETTE) --- */
-/* @media (max-width: 1024px) {
+ @media (max-width: 1024px) {
     .hero-container {
         grid-template-columns: 1fr;
         gap: 40px;
     }
     .hero-visual {
         height: 350px;
-        order: -1; /* Met l'image au-dessus du texte sur mobile */
+        order: -1; Met l'image au-dessus du texte sur mobile
     }
 .hero-title {
         font-size: 2.8rem;
     }
-} */
+} 
 
-/* @media (max-width: 640px) {
+@media (max-width: 640px) {
     .stats-container {
         grid-template-columns: 1fr;
         gap: 24px;
@@ -247,7 +247,7 @@ body {
     .btn {
         text-align: center;
     }
-} */
+}
 
 
 
