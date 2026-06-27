@@ -8,10 +8,14 @@ body{
     color: var(--dark-color);
     line-height: 1.6; 
 }
-.hero {
+.hero-section{
   min-height: 100vh;
-  background: url('images/hero-bg.jpg') center/cover no-repeat;
+   background: url("https://i.pinimg.com/1200x/0a/48/98/0a48983b7cfce6a2eb3edfef517c7f0e.jpg") center/cover no-repeat;
   position: relative;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    color: #fff;    
 }
 #mainNavbar{
   transition: all 0.3s ease;
@@ -132,7 +136,7 @@ body {
 }
 
 /* --- VISUEL ASYMÉTRIQUE --- */
-.hero-visual {
+.hero-visual img {
     position: relative;
     height: 450px;
     display: flex;
@@ -140,19 +144,19 @@ body {
     justify-content: center;
 }
 
-.abstract-shape {
+/* .abstract-shape {
     position: absolute;
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
 }
 
-.shape-1 {
+/* .shape-1 {
     width: 320px;
     height: 320px;
     background: linear-gradient(45deg, #3b82f6, #4f46e5);
     top: 20px;
     right: 10px;
     animation: morph 8s ease-in-out infinite alternate;
-}
+} */
 
 /* .shape-2 {
     width: 250px;
