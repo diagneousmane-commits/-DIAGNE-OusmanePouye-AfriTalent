@@ -8,15 +8,7 @@ body{
     color: var(--dark-color);
     line-height: 1.6; 
 }
-/* .hero-section{
-  min-height: 100vh;
-   background: url() center/cover no-repeat;
-  position: relative;
-  display: flex;
-  align-items: center;
-    justify-content: center;
-    color: #962525;    
-} */
+
  .hero-section {
     padding: 80px 4% 60px 4%;
     max-width: 1300px;
